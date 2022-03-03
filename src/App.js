@@ -409,7 +409,7 @@ class InventoryManagementApp extends React.Component {
   render() {
     return (
       <div className='InventoryManagementApp'>
-        <h1 className='title' onClick={() => this.changeActiveTab(1)}>Inventory</h1>
+        <h1 className='title' onClick={() => this.changeActiveTab(1)}>Inventor</h1>
         <div className='app-body'>
           <Sidebar activeTab={this.state.activeTab} changeTab={this.changeActiveTab.bind(this)} />
           <MyRouter
