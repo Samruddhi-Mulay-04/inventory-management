@@ -339,7 +339,7 @@ const arraySearch = (array, keyword) => {
       value.price.toLowerCase().match(new RegExp(searchTerm, 'g')) ||
       value.name.toLowerCase().match(new RegExp(searchTerm, 'g')) ||
       value.imageURL.toLowerCase().match(new RegExp(searchTerm, 'g'))
-  })
+  });
 }
 
 class InventoryManagementApp extends React.Component {
