@@ -274,7 +274,7 @@ class ProductsTab extends React.Component {
       <div className='ProductsTab'>
         <h1>Available Products</h1>
         <input placeholder='Search Product' type='text' onChange={(e) => this.handleOnChangeSearch(e)} />
-        <p>Showing all available products:</p>
+        <p>Showing all available products</p>
         <table className='productTable'>
           {this.renderTableRows(this.state.inventory)}
         </table>
