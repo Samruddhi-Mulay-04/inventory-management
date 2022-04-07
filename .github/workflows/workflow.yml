@@ -1,6 +1,4 @@
 name: inventory
-env:
-  CI: false
 on:
   push:
     branches:
