@@ -272,7 +272,7 @@ class ProductsTab extends React.Component {
   render() {
     return (
       <div className='ProductsTab'>
-        <h1>Available Products List</h1>
+        <h1>Available Products</h1>
         <input placeholder='Search Product' type='text' onChange={(e) => this.handleOnChangeSearch(e)} />
         <p>Showing all available products:</p>
         <table className='productTable'>
